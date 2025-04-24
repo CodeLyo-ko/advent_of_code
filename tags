@@ -761,9 +761,6 @@ __anonb925e66b0103	2015/16/part1.c	/^typedef enum {$/;"	g	file:
 __anonb925e66b0208	2015/16/part1.c	/^typedef struct {$/;"	s	file:
 __anonb925eaac0103	2015/16/part2.c	/^typedef enum {$/;"	g	file:
 __anonb925eaac0208	2015/16/part2.c	/^typedef struct {$/;"	s	file:
-__anonc2d81e6c0108	2023/test.c	/^{$/;"	s	file:
-__anonc2d81e6c0208	2023/test.c	/^{$/;"	s	file:
-__anonc2d81e6c0308	2023/test.c	/^{$/;"	s	file:
 __anonc74dc45b0108	2023/n10.c	/^{$/;"	s	file:
 __anonc74dc45b0208	2023/n10.c	/^{$/;"	s	file:
 __anonc74dc45b0308	2023/n10.c	/^{$/;"	s	file:
@@ -1012,7 +1009,6 @@ damage	2015/22/part2.c	/^	int damage;$/;"	m	struct:__anoneb3eb7c90308	typeref:ty
 data	2023/n19.c	/^    Part_t* data;$/;"	m	struct:elm	typeref:typename:Part_t *	file:
 data	2023/n20.c	/^    signal_t* data;$/;"	m	struct:elm	typeref:typename:signal_t *	file:
 data	2023/n21.c	/^    coord_t* data;$/;"	m	struct:elm	typeref:typename:coord_t *	file:
-data	2023/test.c	/^    signal_t* data;$/;"	m	struct:elm	typeref:typename:signal_t *	file:
 dbl	2015/12/json.h	/^      double dbl;$/;"	m	union:_json_value::__anoncbbaf7fe030a	typeref:typename:double
 default_alloc	2015/12/json.c	/^static void * default_alloc (size_t size, int zero, void * user_data)$/;"	f	typeref:typename:void *	file:
 default_free	2015/12/json.c	/^static void default_free (void * ptr, void * user_data)$/;"	f	typeref:typename:void	file:
@@ -1020,7 +1016,6 @@ defiler	2023/n17.c	/^Telm* defiler(Tlist* l)$/;"	f	typeref:typename:Telm *
 defiler	2023/n19.c	/^elm_t* defiler(list_t* l)$/;"	f	typeref:typename:elm_t *
 defiler	2023/n20.c	/^signal_t* defiler(list_t* l)$/;"	f	typeref:typename:signal_t *
 defiler	2023/n21.c	/^coord_t* defiler(list_t* l)$/;"	f	typeref:typename:coord_t *
-defiler	2023/test.c	/^signal_t* defiler(list_t* l)$/;"	f	typeref:typename:signal_t *
 dest	2023/n5.c	/^    long long dest;$/;"	m	struct:__anon822935ef0108	typeref:typename:long long	file:
 diff	2024/Day 1/star1.c	/^#define diff(/;"	d	file:
 diff	2024/Day 1/star2.c	/^#define diff(/;"	d	file:
@@ -1045,7 +1040,6 @@ done	2024/Day 25/star2.c	/^    int done;$/;"	m	struct:__anon168b196d0208	typeref
 duplicate	2023/n19.c	/^Part_t* duplicate(Part_t* p)$/;"	f	typeref:typename:Part_t *
 duplicate_bricks_sub_one	2023/n22.c	/^brick_t* duplicate_bricks_sub_one(brick_t* bricks, int n_bricks, int index)$/;"	f	typeref:typename:brick_t *
 duplicate_signal	2023/n20.c	/^signal_t* duplicate_signal(signal_t* s)$/;"	f	typeref:typename:signal_t *
-duplicate_signal	2023/test.c	/^signal_t* duplicate_signal(signal_t* s)$/;"	f	typeref:typename:signal_t *
 durability	2015/15/part1.c	/^    int durability;$/;"	m	struct:__anon44a9756a0108	typeref:typename:int	file:
 durability	2015/15/part2.c	/^    int durability;$/;"	m	struct:__anon44a979ab0108	typeref:typename:int	file:
 edge_t	2023/n25.c	/^} edge_t;$/;"	t	typeref:struct:__anonc74e66010208	file:
@@ -1060,10 +1054,8 @@ elm	2023/n19.c	/^typedef struct elm$/;"	s	file:
 elm	2023/n20.c	/^typedef struct elm $/;"	s	file:
 elm	2023/n21.c	/^typedef struct elm $/;"	s	file:
 elm	2023/n8.c	/^typedef struct elm{$/;"	s	file:
-elm	2023/test.c	/^typedef struct elm $/;"	s	file:
 elm_list_t	2023/n20.c	/^} elm_list_t;$/;"	t	typeref:struct:elm	file:
 elm_list_t	2023/n21.c	/^} elm_list_t;$/;"	t	typeref:struct:elm	file:
-elm_list_t	2023/test.c	/^} elm_list_t;$/;"	t	typeref:struct:elm	file:
 elm_t	2023/n19.c	/^} elm_t;$/;"	t	typeref:struct:elm	file:
 end	2015/12/json.h	/^         _json_value ** end () const$/;"	f	struct:_json_value::__anoncbbaf7fe030a::__anoncbbaf7fe0608	typeref:typename:_json_value **
 end	2015/12/json.h	/^         json_object_entry * end () const$/;"	f	struct:_json_value::__anoncbbaf7fe030a::__anoncbbaf7fe0508	typeref:typename:json_object_entry *
@@ -1076,7 +1068,6 @@ enfiler	2023/n17.c	/^void enfiler(Tlist* l, int x, int y, Tdir dir)$/;"	f	typere
 enfiler	2023/n19.c	/^void enfiler(list_t *l, Part_t* data)$/;"	f	typeref:typename:void
 enfiler	2023/n20.c	/^void enfiler(list_t *l, signal_t* data)$/;"	f	typeref:typename:void
 enfiler	2023/n21.c	/^void enfiler(list_t * l, int x, int y, int whole_x, int whole_y)$/;"	f	typeref:typename:void
-enfiler	2023/test.c	/^void enfiler(list_t *l, signal_t* data)$/;"	f	typeref:typename:void
 equal	2024/Day 17/star2.c	/^int equal(int* t1, int n1, int* t2, int n2) {$/;"	f	typeref:typename:int
 execute_program	2015/23/part1.c	/^void execute_program(command_t* program, int n, long* a, long* b) {$/;"	f	typeref:typename:void
 execute_program	2015/23/part2.c	/^void execute_program(command_t* program, int n, long* a, long* b) {$/;"	f	typeref:typename:void
@@ -1093,10 +1084,8 @@ findSimmetryRow	2023/n13.c	/^int findSimmetryRow(char** mat, int n, int m)$/;"	f
 find_group	2015/24/part1.c	/^long find_group(int* packages, int n_packages, int n_total, int target_weight, int n_cur, int we/;"	f	typeref:typename:long
 find_group	2015/24/part2.c	/^long find_group(int* packages, int n_packages, int n_total, int target_weight, int n_cur, int we/;"	f	typeref:typename:long
 find_index_input	2023/n20.c	/^int find_index_input(module_t* conjunction, char* receiver)$/;"	f	typeref:typename:int
-find_index_input	2023/test.c	/^int find_index_input(module_t* conjunction, char* receiver)$/;"	f	typeref:typename:int
 find_max_seq	2024/Day 22/star2.c	/^int find_max_seq(sequence_t* sequences, int n_seq) {$/;"	f	typeref:typename:int
 find_module	2023/n20.c	/^module_t* find_module(module_t* modules, int n_module, char* name)$/;"	f	typeref:typename:module_t *
-find_module	2023/test.c	/^module_t* find_module(module_t* modules, int n_module, char* name)$/;"	f	typeref:typename:module_t *
 find_node	2023/n25.c	/^node_t* find_node(node_t** nodes, int n_nodes, char* name_node)$/;"	f	typeref:typename:node_t *
 find_target_weight	2015/24/part1.c	/^int find_target_weight(int* packages, int n_packages) {$/;"	f	typeref:typename:int
 find_target_weight	2015/24/part2.c	/^int find_target_weight(int* packages, int n_packages) {$/;"	f	typeref:typename:int
@@ -1171,7 +1160,6 @@ head	2023/n17.c	/^    Telm* head;$/;"	m	struct:__anonc74de2220208	typeref:typena
 head	2023/n19.c	/^    elm_t* head;$/;"	m	struct:__anonc74deaa40608	typeref:typename:elm_t *	file:
 head	2023/n20.c	/^    elm_list_t* head;$/;"	m	struct:__anonc74e50bc0308	typeref:typename:elm_list_t *	file:
 head	2023/n21.c	/^    elm_list_t* head;$/;"	m	struct:__anonc74e54fd0208	typeref:typename:elm_list_t *	file:
-head	2023/test.c	/^    elm_list_t* head;$/;"	m	struct:__anonc2d81e6c0308	typeref:typename:elm_list_t *	file:
 heal	2015/22/part1.c	/^	int heal;$/;"	m	struct:__anoneb3eb3880308	typeref:typename:int	file:
 heal	2015/22/part2.c	/^	int heal;$/;"	m	struct:__anoneb3eb7c90308	typeref:typename:int	file:
 hex_value	2015/12/json.c	/^static unsigned char hex_value (json_char c)$/;"	f	typeref:typename:unsigned char	file:
@@ -1242,7 +1230,6 @@ ingredient_t	2015/15/part2.c	/^} ingredient_t;$/;"	t	typeref:struct:__anon44a979
 input_keypad	2024/Day 21/star1.c	/^void input_keypad(hash_t* hash_tab, char** keypad, int r, char prev, char now, char* input, int*/;"	f	typeref:typename:void
 input_keypad	2024/Day 21/star2.c	/^void input_keypad(char** keypad, int r, char prev, char now, char* input, int* n){$/;"	f	typeref:typename:void
 inputs	2023/n20.c	/^    char** inputs;$/;"	m	struct:__anonc74e50bc0208	typeref:typename:char **	file:
-inputs	2023/test.c	/^    char** inputs;$/;"	m	struct:__anonc2d81e6c0208	typeref:typename:char **	file:
 instruction	2015/23/part1.c	/^    instruction_t instruction;$/;"	m	struct:__anon5fbb24890308	typeref:typename:instruction_t	file:
 instruction	2015/23/part2.c	/^    instruction_t instruction;$/;"	m	struct:__anon5fbb28ca0308	typeref:typename:instruction_t	file:
 instruction_t	2015/23/part1.c	/^} instruction_t;$/;"	t	typeref:enum:__anon5fbb24890103	file:
@@ -1257,12 +1244,10 @@ isSimmetryColumn	2023/n13.c	/^int isSimmetryColumn(char** mat, int n, int m, int
 isSimmetryRow	2023/n13.c	/^int isSimmetryRow(char** mat, int n, int m, int i)$/;"	f	typeref:typename:int
 isSupporting	2023/n22.c	/^int isSupporting(brick_t brick1, brick_t brick2)$/;"	f	typeref:typename:int
 is_every_module_high	2023/n20.c	/^int is_every_module_high(module_t* conjunction)$/;"	f	typeref:typename:int
-is_every_module_high	2023/test.c	/^int is_every_module_high(module_t* conjunction)$/;"	f	typeref:typename:int
 is_good	2015/11/part1.c	/^int is_good(char* password, int n) {$/;"	f	typeref:typename:int
 is_good	2015/11/part2.c	/^int is_good(char* password, int n) {$/;"	f	typeref:typename:int
 is_in_array	2016/01/part2.c	/^int is_in_array(pos_t* array, int n, int x, int y) {$/;"	f	typeref:typename:int
 is_in_receiver	2023/n20.c	/^int is_in_receiver(module_t m1, module_t m2)$/;"	f	typeref:typename:int
-is_in_receiver	2023/test.c	/^int is_in_receiver(module_t m1, module_t m2)$/;"	f	typeref:typename:int
 is_nice	2015/05/part1.c	/^int is_nice(char* string, int n) {$/;"	f	typeref:typename:int
 is_nice	2015/05/part2.c	/^int is_nice(char* string, int n) {$/;"	f	typeref:typename:int
 is_possible	2024/Day 19/star1.c	/^int is_possible(cache_t** cache_tab, char** designs, int n_design, int* k_design, char* towel, i/;"	f	typeref:typename:int
@@ -1332,7 +1317,6 @@ list_struct	2024/Day 22/star2.c	/^typedef struct list_struct {$/;"	s	file:
 list_t	2023/n19.c	/^} list_t;$/;"	t	typeref:struct:__anonc74deaa40608	file:
 list_t	2023/n20.c	/^} list_t;$/;"	t	typeref:struct:__anonc74e50bc0308	file:
 list_t	2023/n21.c	/^} list_t;$/;"	t	typeref:struct:__anonc74e54fd0208	file:
-list_t	2023/test.c	/^} list_t;$/;"	t	typeref:struct:__anonc2d81e6c0308	file:
 list_t	2024/Day 11/star1.c	/^} list_t;$/;"	t	typeref:struct:list	file:
 list_t	2024/Day 22/star2.c	/^} list_t;$/;"	t	typeref:struct:__anonb915c66a0108	file:
 log2_num_buckets	2024/Day 19/uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table	typeref:typename:unsigned
@@ -1397,6 +1381,8 @@ main	2015/24/part2.c	/^int main() {$/;"	f	typeref:typename:int
 main	2015/25/part1.c	/^int main() {$/;"	f	typeref:typename:int
 main	2016/01/part1.c	/^int main() {$/;"	f	typeref:typename:int
 main	2016/01/part2.c	/^int main() {$/;"	f	typeref:typename:int
+main	2016/02/part1.c	/^int main() {$/;"	f	typeref:typename:int
+main	2016/02/part2.c	/^int main() {$/;"	f	typeref:typename:int
 main	2023/n1.c	/^int main(){$/;"	f	typeref:typename:int
 main	2023/n10.c	/^int main()$/;"	f	typeref:typename:int
 main	2023/n11.c	/^int main()$/;"	f	typeref:typename:int
@@ -1422,7 +1408,6 @@ main	2023/n6.c	/^int main(){$/;"	f	typeref:typename:int
 main	2023/n7.c	/^int main(){$/;"	f	typeref:typename:int
 main	2023/n8.c	/^int main(){$/;"	f	typeref:typename:int
 main	2023/n9.c	/^int main(){$/;"	f	typeref:typename:int
-main	2023/test.c	/^int main()$/;"	f	typeref:typename:int
 main	2024/Day 1/star1.c	/^int main() {$/;"	f	typeref:typename:int
 main	2024/Day 1/star2.c	/^int main() {$/;"	f	typeref:typename:int
 main	2024/Day 10/star1.c	/^int main() {$/;"	f	typeref:typename:int
@@ -1489,7 +1474,6 @@ max_gold	2015/21/part2.c	/^int max_gold(stats_t boss, stats_t player, item_t* we
 max_memory	2015/12/json.h	/^   unsigned long max_memory;  \/* should be size_t, but would modify the API *\/$/;"	m	struct:__anoncbbaf7fe0108	typeref:typename:unsigned long
 max_score	2015/15/part1.c	/^long long max_score(ingredient_t* ingredients, int n, int teaspoons_left, int cur_ingredient) {$/;"	f	typeref:typename:long long
 max_score	2015/15/part2.c	/^long long max_score(ingredient_t* ingredients, int n, int teaspoons_left, int cur_ingredient) {$/;"	f	typeref:typename:long long
-maxx	2023/test.py	/^maxx = maxy = 400000000000000$/;"	v
 md5_block	2015/04/md5.c	/^void md5_block(md5_context* ctx, const uint8_t m[64]) {$/;"	f	typeref:typename:void	file:
 md5_context	2015/04/md5.h	/^} md5_context;$/;"	t	typeref:struct:__anon3faf128b0108
 md5_convert	2015/04/part1.c	/^void md5_convert(char* input, uint8_t output[16]) {$/;"	f	typeref:typename:void
@@ -1505,10 +1489,8 @@ min	2015/22/part2.c	/^#define min(/;"	d	file:
 min_gold	2015/21/part1.c	/^int min_gold(stats_t boss, stats_t player, item_t* weapons, int n_weapons, item_t* armor, int n_/;"	f	typeref:typename:int
 min_mana	2015/22/part1.c	/^long long min_mana(effect_t* active_effects, int n_effects, spell_t* spells, int n_spells, stats/;"	f	typeref:typename:long long
 min_mana	2015/22/part2.c	/^long long min_mana(effect_t* active_effects, int n_effects, spell_t* spells, int n_spells, stats/;"	f	typeref:typename:long long
-minx	2023/test.py	/^minx = miny = 200000000000000$/;"	v
 mirror	2023/n16.c	/^    char mirror;$/;"	m	struct:__anonc74ddde10208	typeref:typename:char	file:
 module_t	2023/n20.c	/^} module_t;$/;"	t	typeref:struct:__anonc74e50bc0208	file:
-module_t	2023/test.c	/^} module_t;$/;"	t	typeref:struct:__anonc2d81e6c0208	file:
 n	2023/n10.c	/^    int n;$/;"	m	struct:__anonc74dc45b0308	typeref:typename:int	file:
 n	2023/n10.c	/^    int n;$/;"	m	struct:__anonc74dc45b0408	typeref:typename:int	file:
 n	2023/n11.c	/^    int n;$/;"	m	struct:__anonc74dc89c0208	typeref:typename:int	file:
@@ -1525,7 +1507,6 @@ n_combinations	2015/17/part1.c	/^int n_combinations (int* containers, int n, int
 n_combinations	2015/17/part2.c	/^int n_combinations (int* containers, int n, int liters, int k, int n_containers) {$/;"	f	typeref:typename:int
 n_groups	2023/n12.c	/^    int n_groups;$/;"	m	struct:__anonc74dccdd0108	typeref:typename:int	file:
 n_inputs	2023/n20.c	/^    int n_inputs;$/;"	m	struct:__anonc74e50bc0208	typeref:typename:int	file:
-n_inputs	2023/test.c	/^    int n_inputs;$/;"	m	struct:__anonc2d81e6c0208	typeref:typename:int	file:
 n_literal	2015/08/part1.c	/^int n_literal(char* line) {$/;"	f	typeref:typename:int
 n_literal	2015/08/part2.c	/^int n_literal(char* line) {$/;"	f	typeref:typename:int
 n_machines	2023/n12.c	/^    int n_machines;$/;"	m	struct:__anonc74dccdd0108	typeref:typename:int	file:
@@ -1537,7 +1518,6 @@ n_node_in_group	2023/n25.c	/^int n_node_in_group(node_t** nodes, int n_nodes, ed
 n_num	2023/n3.c	/^    int n_num;$/;"	m	struct:__anon82292d6d0208	typeref:typename:int	file:
 n_path	2024/Day 16/star2.c	/^int n_path(int** map, node_t* N){$/;"	f	typeref:typename:int
 n_receiver	2023/n20.c	/^    int n_receiver;$/;"	m	struct:__anonc74e50bc0208	typeref:typename:int	file:
-n_receiver	2023/test.c	/^    int n_receiver;$/;"	m	struct:__anonc2d81e6c0208	typeref:typename:int	file:
 n_rules	2023/n19.c	/^    int n_rules;$/;"	m	struct:__anonc74deaa40308	typeref:typename:int	file:
 n_steps	2015/19/part2.c	/^int n_steps(char* molecule_end, char* molecule_now, replace_t* replacements, int n){$/;"	f	typeref:typename:int
 n_type	2023/n7.c	/^    int n_type;$/;"	m	struct:__anon82293e710108	typeref:typename:int	file:
@@ -1548,7 +1528,6 @@ name	2015/14/part1.c	/^    char* name;$/;"	m	struct:__anond02d04690108	typeref:t
 name	2015/14/part2.c	/^    char* name;$/;"	m	struct:__anond02d08aa0108	typeref:typename:char *	file:
 name	2023/n20.c	/^    char* name;$/;"	m	struct:__anonc74e50bc0208	typeref:typename:char *	file:
 name	2023/n25.c	/^    char* name;$/;"	m	struct:__anonc74e66010108	typeref:typename:char *	file:
-name	2023/test.c	/^    char* name;$/;"	m	struct:__anonc2d81e6c0208	typeref:typename:char *	file:
 name1	2015/13/part1.c	/^    char name1;$/;"	m	struct:__anon5bb093680108	typeref:typename:char	file:
 name1	2015/13/part2.c	/^    char name1;$/;"	m	struct:__anon5bb097a90108	typeref:typename:char	file:
 name2	2015/13/part1.c	/^    char name2;$/;"	m	struct:__anon5bb093680108	typeref:typename:char	file:
@@ -1569,7 +1548,6 @@ next	2023/n19.c	/^    char* next;$/;"	m	struct:__anonc74deaa40208	typeref:typena
 next	2023/n19.c	/^    struct elm* next;$/;"	m	struct:elm	typeref:struct:elm *	file:
 next	2023/n20.c	/^    struct elm* next;$/;"	m	struct:elm	typeref:struct:elm *	file:
 next	2023/n21.c	/^    struct elm* next;$/;"	m	struct:elm	typeref:struct:elm *	file:
-next	2023/test.c	/^    struct elm* next;$/;"	m	struct:elm	typeref:struct:elm *	file:
 next	2024/Day 19/uthash.h	/^   void *next;                       \/* next element in app order      *\/$/;"	m	struct:UT_hash_handle	typeref:typename:void *
 next	2024/Day 21/uthash.h	/^   void *next;                       \/* next element in app order      *\/$/;"	m	struct:UT_hash_handle	typeref:typename:void *
 next	2024/Day 22/star2.c	/^    struct list_struct* next;$/;"	m	struct:list_struct	typeref:struct:list_struct *	file:
@@ -1608,7 +1586,6 @@ num_buckets	2024/Day 24/uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;
 num_buckets	2024/Day 25/uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table	typeref:typename:unsigned
 num_elm	2023/n20.c	/^    int num_elm;$/;"	m	struct:__anonc74e50bc0308	typeref:typename:int	file:
 num_elm	2023/n21.c	/^    int num_elm;$/;"	m	struct:__anonc74e54fd0208	typeref:typename:int	file:
-num_elm	2023/test.c	/^    int num_elm;$/;"	m	struct:__anonc2d81e6c0308	typeref:typename:int	file:
 num_items	2024/Day 19/uthash.h	/^   unsigned num_items;$/;"	m	struct:UT_hash_table	typeref:typename:unsigned
 num_items	2024/Day 21/uthash.h	/^   unsigned num_items;$/;"	m	struct:UT_hash_table	typeref:typename:unsigned
 num_items	2024/Day 22/uthash.h	/^   unsigned num_items;$/;"	m	struct:UT_hash_table	typeref:typename:unsigned
@@ -1675,7 +1652,6 @@ process_value	2015/12/part2.c	/^static int process_value(json_value* value, int 
 ptr	2015/12/json.c	/^   const json_char * ptr;$/;"	m	struct:__anoncbbaf7f90108	typeref:typename:const json_char *	file:
 ptr	2015/12/json.h	/^         json_char * ptr; \/* null terminated *\/$/;"	m	struct:_json_value::__anoncbbaf7fe030a::__anoncbbaf7fe0408	typeref:typename:json_char *
 pulse	2023/n20.c	/^    int pulse; \/\/0 = low, 1 = high$/;"	m	struct:__anonc74e50bc0108	typeref:typename:int	file:
-pulse	2023/test.c	/^    int pulse; \/\/0 = low, 1 = high$/;"	m	struct:__anonc2d81e6c0108	typeref:typename:int	file:
 push_box	2024/Day 15/star2.c	/^int push_box(char** map, int x, int y, char dir) {$/;"	f	typeref:typename:int
 quantity	2015/15/part1.c	/^    int quantity;$/;"	m	struct:__anon44a9756a0108	typeref:typename:int	file:
 quantity	2015/15/part2.c	/^    int quantity;$/;"	m	struct:__anon44a979ab0108	typeref:typename:int	file:
@@ -1683,8 +1659,6 @@ range	2023/n5.c	/^    long long range;$/;"	m	struct:__anon822935ef0108	typeref:t
 ratings	2023/n19.c	/^    Interval_t* ratings;$/;"	m	struct:__anonc74deaa40508	typeref:typename:Interval_t *	file:
 receiver	2023/n20.c	/^    char* receiver;$/;"	m	struct:__anonc74e50bc0108	typeref:typename:char *	file:
 receiver	2023/n20.c	/^    char** receiver;$/;"	m	struct:__anonc74e50bc0208	typeref:typename:char **	file:
-receiver	2023/test.c	/^    char* receiver;$/;"	m	struct:__anonc2d81e6c0108	typeref:typename:char *	file:
-receiver	2023/test.c	/^    char** receiver;$/;"	m	struct:__anonc2d81e6c0208	typeref:typename:char **	file:
 reg	2015/23/part1.c	/^    reg_t reg;$/;"	m	struct:__anon5fbb24890308	typeref:typename:reg_t	file:
 reg	2015/23/part2.c	/^    reg_t reg;$/;"	m	struct:__anon5fbb28ca0308	typeref:typename:reg_t	file:
 reg_t	2015/23/part1.c	/^} reg_t;$/;"	t	typeref:enum:__anon5fbb24890203	file:
@@ -1727,7 +1701,6 @@ search	2024/Day 25/star2.c	/^int search (wire_t* wires, int* n_wire, char wire[4
 search_wire	2015/07/part1.c	/^int search_wire(wire_t* circuit, int n, char* name) {$/;"	f	typeref:typename:int
 search_wire	2015/07/part2.c	/^int search_wire(wire_t* circuit, int n, char* name) {$/;"	f	typeref:typename:int
 sender	2023/n20.c	/^    char* sender; \/\/conjunctions need to know the sender$/;"	m	struct:__anonc74e50bc0108	typeref:typename:char *	file:
-sender	2023/test.c	/^    char* sender; \/\/conjunctions need to know the sender$/;"	m	struct:__anonc2d81e6c0108	typeref:typename:char *	file:
 sequence	2024/Day 22/star2.c	/^    int sequence[4];$/;"	m	struct:__anonb915c66a0208	typeref:typename:int[4]	file:
 sequence_t	2024/Day 22/star2.c	/^} sequence_t;$/;"	t	typeref:struct:__anonb915c66a0208	file:
 settings	2015/12/json.c	/^   json_settings settings;$/;"	m	struct:__anoncbbaf7f90108	typeref:typename:json_settings	file:
@@ -1738,7 +1711,6 @@ shortest_path	2024/Day 20/star1.c	/^int shortest_path(char** map, int n, int m, 
 shortest_path	2024/Day 20/star2.c	/^int shortest_path(char** map, int n, int m, int x, int y, int cheat, int* cheats, int* n_cheat, /;"	f	typeref:typename:int
 shortest_path_no_cheat	2024/Day 20/star2.c	/^int shortest_path_no_cheat(char** map, int n, int m, int x, int y, int** map_min) {$/;"	f	typeref:typename:int
 signal_t	2023/n20.c	/^} signal_t;$/;"	t	typeref:struct:__anonc74e50bc0108	file:
-signal_t	2023/test.c	/^} signal_t;$/;"	t	typeref:struct:__anonc2d81e6c0108	file:
 signature	2024/Day 19/uthash.h	/^   uint32_t signature; \/* used only to find hash tables in external analysis *\/$/;"	m	struct:UT_hash_table	typeref:typename:uint32_t
 signature	2024/Day 21/uthash.h	/^   uint32_t signature; \/* used only to find hash tables in external analysis *\/$/;"	m	struct:UT_hash_table	typeref:typename:uint32_t
 signature	2024/Day 22/uthash.h	/^   uint32_t signature; \/* used only to find hash tables in external analysis *\/$/;"	m	struct:UT_hash_table	typeref:typename:uint32_t
@@ -1764,9 +1736,7 @@ split_input	2015/07/part1.c	/^void split_input(char* line, gate_t* gate, int* sh
 split_input	2015/07/part2.c	/^void split_input(char* line, gate_t* gate, int* shift, char* w1, char* w2, uint16_t* val, int* d/;"	f	typeref:typename:void
 src	2023/n5.c	/^    long long src;$/;"	m	struct:__anon822935ef0108	typeref:typename:long long	file:
 state	2023/n20.c	/^    int state;$/;"	m	struct:__anonc74e50bc0208	typeref:typename:int	file:
-state	2023/test.c	/^    int state;$/;"	m	struct:__anonc2d81e6c0208	typeref:typename:int	file:
 state_of_input	2023/n20.c	/^    int* state_of_input; $/;"	m	struct:__anonc74e50bc0208	typeref:typename:int *	file:
-state_of_input	2023/test.c	/^    int* state_of_input; $/;"	m	struct:__anonc2d81e6c0208	typeref:typename:int *	file:
 stats_t	2015/21/part1.c	/^} stats_t;$/;"	t	typeref:struct:__anon76c242870108	file:
 stats_t	2015/21/part2.c	/^} stats_t;$/;"	t	typeref:struct:__anon76c246c80108	file:
 stats_t	2015/22/part1.c	/^} stats_t;$/;"	t	typeref:struct:__anoneb3eb3880108	file:
@@ -1795,7 +1765,6 @@ tail	2023/n17.c	/^    Telm* tail;$/;"	m	struct:__anonc74de2220208	typeref:typena
 tail	2023/n19.c	/^    elm_t* tail;$/;"	m	struct:__anonc74deaa40608	typeref:typename:elm_t *	file:
 tail	2023/n20.c	/^    elm_list_t* tail;$/;"	m	struct:__anonc74e50bc0308	typeref:typename:elm_list_t *	file:
 tail	2023/n21.c	/^    elm_list_t* tail;$/;"	m	struct:__anonc74e54fd0208	typeref:typename:elm_list_t *	file:
-tail	2023/test.c	/^    elm_list_t* tail;$/;"	m	struct:__anonc2d81e6c0308	typeref:typename:elm_list_t *	file:
 tail	2024/Day 19/uthash.h	/^   struct UT_hash_handle *tail; \/* tail hh in app order, for fast append    *\/$/;"	m	struct:UT_hash_table	typeref:struct:UT_hash_handle *
 tail	2024/Day 21/uthash.h	/^   struct UT_hash_handle *tail; \/* tail hh in app order, for fast append    *\/$/;"	m	struct:UT_hash_table	typeref:struct:UT_hash_handle *
 tail	2024/Day 22/uthash.h	/^   struct UT_hash_handle *tail; \/* tail hh in app order, for fast append    *\/$/;"	m	struct:UT_hash_table	typeref:struct:UT_hash_handle *
@@ -1824,7 +1793,6 @@ trees	2015/16/part2.c	/^    int trees;$/;"	m	struct:__anonb925eaac0208	typeref:t
 type	2015/12/json.h	/^   json_type type;$/;"	m	struct:_json_value	typeref:typename:json_type
 type	2023/n20.c	/^    char type; \/\/ % = flip flop, & = conjunction $/;"	m	struct:__anonc74e50bc0208	typeref:typename:char	file:
 type	2023/n7.c	/^    int type;$/;"	m	struct:__anon82293e710108	typeref:typename:int	file:
-type	2023/test.c	/^    char type; \/\/ % = flip flop, & = conjunction $/;"	m	struct:__anonc2d81e6c0208	typeref:typename:char	file:
 u	2015/12/json.h	/^   } u;$/;"	m	struct:_json_value	typeref:union:_json_value::__anoncbbaf7fe030a
 uint32_t	2024/Day 19/uthash.h	/^typedef unsigned int uint32_t;$/;"	t	typeref:typename:unsigned int
 uint32_t	2024/Day 21/uthash.h	/^typedef unsigned int uint32_t;$/;"	t	typeref:typename:unsigned int
@@ -1895,7 +1863,6 @@ val	2015/07/part1.c	/^    uint16_t val;$/;"	m	struct:wire	typeref:typename:uint1
 val	2015/07/part2.c	/^    uint16_t val;$/;"	m	struct:wire	typeref:typename:uint16_t	file:
 val	2023/n8.c	/^    char* val;$/;"	m	struct:elm	typeref:typename:char *	file:
 val	2024/Day 11/star2.c	/^    long val;$/;"	m	struct:__anon408ec4480108	typeref:typename:long	file:
-valid	2023/test.py	/^def valid(hailstone0, hailstone1):$/;"	f
 value	2015/12/json.h	/^    struct _json_value * value;$/;"	m	struct:_json_object_entry	typeref:struct:_json_value *
 value	2024/Day 11/star1.c	/^    long value;$/;"	m	struct:list	typeref:typename:long	file:
 value	2024/Day 22/star2.c	/^    int value;$/;"	m	struct:list_struct	typeref:typename:int	file:
