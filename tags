@@ -1253,6 +1253,8 @@ is_nice	2015/05/part2.c	/^int is_nice(char* string, int n) {$/;"	f	typeref:typen
 is_possible	2024/Day 19/star1.c	/^int is_possible(cache_t** cache_tab, char** designs, int n_design, int* k_design, char* towel, i/;"	f	typeref:typename:int
 is_possible	2024/Day 19/star2.c	/^long long is_possible(cache_t** cache_tab, char** designs, int n_design, int* k_design, char* to/;"	f	typeref:typename:long long
 is_robot	2024/Day 14/star2.c	/^int is_robot(rob_t* robots, int n, int x, int y) {$/;"	f	typeref:typename:int
+is_triangle	2016/03/part1.c	/^int is_triangle(int a, int b, int c) {$/;"	f	typeref:typename:int
+is_triangle	2016/03/part2.c	/^int is_triangle(int a, int b, int c) {$/;"	f	typeref:typename:int
 item_t	2015/21/part1.c	/^} item_t;$/;"	t	typeref:struct:__anon76c242870208	file:
 item_t	2015/21/part2.c	/^} item_t;$/;"	t	typeref:struct:__anon76c246c80208	file:
 j	2023/n11.c	/^    int j;$/;"	m	struct:__anonc74dc89c0108	typeref:typename:int	file:
@@ -1383,6 +1385,8 @@ main	2016/01/part1.c	/^int main() {$/;"	f	typeref:typename:int
 main	2016/01/part2.c	/^int main() {$/;"	f	typeref:typename:int
 main	2016/02/part1.c	/^int main() {$/;"	f	typeref:typename:int
 main	2016/02/part2.c	/^int main() {$/;"	f	typeref:typename:int
+main	2016/03/part1.c	/^int main() {$/;"	f	typeref:typename:int
+main	2016/03/part2.c	/^int main() {$/;"	f	typeref:typename:int
 main	2023/n1.c	/^int main(){$/;"	f	typeref:typename:int
 main	2023/n10.c	/^int main()$/;"	f	typeref:typename:int
 main	2023/n11.c	/^int main()$/;"	f	typeref:typename:int
