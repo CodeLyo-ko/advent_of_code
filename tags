@@ -1010,6 +1010,7 @@ data	2023/n19.c	/^    Part_t* data;$/;"	m	struct:elm	typeref:typename:Part_t *	f
 data	2023/n20.c	/^    signal_t* data;$/;"	m	struct:elm	typeref:typename:signal_t *	file:
 data	2023/n21.c	/^    coord_t* data;$/;"	m	struct:elm	typeref:typename:coord_t *	file:
 dbl	2015/12/json.h	/^      double dbl;$/;"	m	union:_json_value::__anoncbbaf7fe030a	typeref:typename:double
+decrypt	2016/04/part2.c	/^char* decrypt(char* room) {$/;"	f	typeref:typename:char *
 default_alloc	2015/12/json.c	/^static void * default_alloc (size_t size, int zero, void * user_data)$/;"	f	typeref:typename:void *	file:
 default_free	2015/12/json.c	/^static void default_free (void * ptr, void * user_data)$/;"	f	typeref:typename:void	file:
 defiler	2023/n17.c	/^Telm* defiler(Tlist* l)$/;"	f	typeref:typename:Telm *
@@ -1198,6 +1199,8 @@ hp	2015/22/part1.c	/^	int hp;$/;"	m	struct:__anoneb3eb3880108	typeref:typename:i
 hp	2015/22/part2.c	/^	int hp;$/;"	m	struct:__anoneb3eb7c90108	typeref:typename:int	file:
 i	2023/n11.c	/^    int i;$/;"	m	struct:__anonc74dc89c0108	typeref:typename:int	file:
 i	2024/Day 16/star2.c	/^    int i;$/;"	m	struct:node	typeref:typename:int	file:
+id	2016/04/part1.c	/^int id(char* room) {$/;"	f	typeref:typename:int
+id	2016/04/part2.c	/^int id(char* room) {$/;"	f	typeref:typename:int
 ideal_chain_maxlen	2024/Day 19/uthash.h	/^   unsigned ideal_chain_maxlen;$/;"	m	struct:UT_hash_table	typeref:typename:unsigned
 ideal_chain_maxlen	2024/Day 21/uthash.h	/^   unsigned ideal_chain_maxlen;$/;"	m	struct:UT_hash_table	typeref:typename:unsigned
 ideal_chain_maxlen	2024/Day 22/uthash.h	/^   unsigned ideal_chain_maxlen;$/;"	m	struct:UT_hash_table	typeref:typename:unsigned
@@ -1253,6 +1256,8 @@ is_nice	2015/05/part2.c	/^int is_nice(char* string, int n) {$/;"	f	typeref:typen
 is_possible	2024/Day 19/star1.c	/^int is_possible(cache_t** cache_tab, char** designs, int n_design, int* k_design, char* towel, i/;"	f	typeref:typename:int
 is_possible	2024/Day 19/star2.c	/^long long is_possible(cache_t** cache_tab, char** designs, int n_design, int* k_design, char* to/;"	f	typeref:typename:long long
 is_robot	2024/Day 14/star2.c	/^int is_robot(rob_t* robots, int n, int x, int y) {$/;"	f	typeref:typename:int
+is_room	2016/04/part1.c	/^int is_room(char* room) {$/;"	f	typeref:typename:int
+is_room	2016/04/part2.c	/^int is_room(char* room) {$/;"	f	typeref:typename:int
 is_triangle	2016/03/part1.c	/^int is_triangle(int a, int b, int c) {$/;"	f	typeref:typename:int
 is_triangle	2016/03/part2.c	/^int is_triangle(int a, int b, int c) {$/;"	f	typeref:typename:int
 item_t	2015/21/part1.c	/^} item_t;$/;"	t	typeref:struct:__anon76c242870208	file:
@@ -1387,6 +1392,8 @@ main	2016/02/part1.c	/^int main() {$/;"	f	typeref:typename:int
 main	2016/02/part2.c	/^int main() {$/;"	f	typeref:typename:int
 main	2016/03/part1.c	/^int main() {$/;"	f	typeref:typename:int
 main	2016/03/part2.c	/^int main() {$/;"	f	typeref:typename:int
+main	2016/04/part1.c	/^int main() {$/;"	f	typeref:typename:int
+main	2016/04/part2.c	/^int main() {$/;"	f	typeref:typename:int
 main	2023/n1.c	/^int main(){$/;"	f	typeref:typename:int
 main	2023/n10.c	/^int main()$/;"	f	typeref:typename:int
 main	2023/n11.c	/^int main()$/;"	f	typeref:typename:int
