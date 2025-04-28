@@ -599,6 +599,8 @@ MAX	2015/15/part1.c	/^#define MAX(/;"	d	file:
 MAX	2015/15/part2.c	/^#define MAX(/;"	d	file:
 MAX_INT	2015/22/part1.c	/^#define MAX_INT /;"	d	file:
 MAX_INT	2015/22/part2.c	/^#define MAX_INT /;"	d	file:
+MAX_LETTERS	2016/06/part1.c	/^#define MAX_LETTERS /;"	d	file:
+MAX_LETTERS	2016/06/part2.c	/^#define MAX_LETTERS /;"	d	file:
 MAX_LONG	2015/24/part1.c	/^#define MAX_LONG /;"	d	file:
 MAX_LONG	2015/24/part2.c	/^#define MAX_LONG /;"	d	file:
 MD5Context	2016/05/md5.h	/^}MD5Context;$/;"	t	typeref:struct:__anon90b3e06d0108
@@ -847,6 +849,8 @@ add_char	2015/09/part1.c	/^void add_char(char** cities, int* n_city, char* city)
 add_char	2015/09/part2.c	/^void add_char(char** cities, int* n_city, char* city) {$/;"	f	typeref:typename:void
 add_coord	2015/03/part1.c	/^void add_coord(coord_t* houses_list, int* n, int x, int y) {$/;"	f	typeref:typename:void
 add_coord	2015/03/part2.c	/^void add_coord(coord_t* houses_list, int* n, int x, int y) {$/;"	f	typeref:typename:void
+add_frequencies	2016/06/part1.c	/^void add_frequencies(int** frequencies, char* line) {$/;"	f	typeref:typename:void
+add_frequencies	2016/06/part2.c	/^void add_frequencies(int** frequencies, char* line) {$/;"	f	typeref:typename:void
 add_list	2024/Day 11/star1.c	/^void add_list(list_t* l) {$/;"	f	typeref:typename:void
 add_molecule	2015/19/part1.c	/^void add_molecule(char** all_molecules, int* n, char* molecule, int i, int j, char* replace){$/;"	f	typeref:typename:void
 add_name	2015/13/part1.c	/^void add_name(char* names, int* n_names, char name) {$/;"	f	typeref:typename:void
@@ -1334,6 +1338,7 @@ lcm	2023/n8.c	/^long lcm(long a, long b){$/;"	f	typeref:typename:long
 length	2015/12/json.h	/^         unsigned int length;$/;"	m	struct:_json_value::__anoncbbaf7fe030a::__anoncbbaf7fe0408	typeref:typename:unsigned int
 length	2015/12/json.h	/^         unsigned int length;$/;"	m	struct:_json_value::__anoncbbaf7fe030a::__anoncbbaf7fe0508	typeref:typename:unsigned int
 length	2015/12/json.h	/^         unsigned int length;$/;"	m	struct:_json_value::__anoncbbaf7fe030a::__anoncbbaf7fe0608	typeref:typename:unsigned int
+less_frequent	2016/06/part2.c	/^char less_frequent(int* frequencies) {$/;"	f	typeref:typename:char
 letters_forbidden	2015/11/part1.c	/^int letters_forbidden(char* password, int n) {$/;"	f	typeref:typename:int
 letters_forbidden	2015/11/part2.c	/^int letters_forbidden(char* password, int n) {$/;"	f	typeref:typename:int
 level	2024/Day 21/star2.c	/^    int level;$/;"	m	struct:__anon449955690108	typeref:typename:int	file:
@@ -1420,6 +1425,8 @@ main	2016/04/part1.c	/^int main() {$/;"	f	typeref:typename:int
 main	2016/04/part2.c	/^int main() {$/;"	f	typeref:typename:int
 main	2016/05/part1.c	/^int main(){$/;"	f	typeref:typename:int
 main	2016/05/part2.c	/^int main(){$/;"	f	typeref:typename:int
+main	2016/06/part1.c	/^int main() {$/;"	f	typeref:typename:int
+main	2016/06/part2.c	/^int main() {$/;"	f	typeref:typename:int
 main	2023/n1.c	/^int main(){$/;"	f	typeref:typename:int
 main	2023/n10.c	/^int main()$/;"	f	typeref:typename:int
 main	2023/n11.c	/^int main()$/;"	f	typeref:typename:int
@@ -1534,6 +1541,7 @@ min_mana	2015/22/part1.c	/^long long min_mana(effect_t* active_effects, int n_ef
 min_mana	2015/22/part2.c	/^long long min_mana(effect_t* active_effects, int n_effects, spell_t* spells, int n_spells, stats/;"	f	typeref:typename:long long
 mirror	2023/n16.c	/^    char mirror;$/;"	m	struct:__anonc74ddde10208	typeref:typename:char	file:
 module_t	2023/n20.c	/^} module_t;$/;"	t	typeref:struct:__anonc74e50bc0208	file:
+most_frequent	2016/06/part1.c	/^char most_frequent(int* frequencies) {$/;"	f	typeref:typename:char
 n	2023/n10.c	/^    int n;$/;"	m	struct:__anonc74dc45b0308	typeref:typename:int	file:
 n	2023/n10.c	/^    int n;$/;"	m	struct:__anonc74dc45b0408	typeref:typename:int	file:
 n	2023/n11.c	/^    int n;$/;"	m	struct:__anonc74dc89c0208	typeref:typename:int	file:
