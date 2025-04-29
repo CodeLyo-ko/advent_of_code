@@ -1171,6 +1171,8 @@ half_digit	2024/Day 11/star2.c	/^void half_digit(long n, int* v1, int* v2) {$/;"
 hand	2023/n7.c	/^} hand;$/;"	t	typeref:struct:__anon82293e710108	file:
 happiness	2015/13/part1.c	/^    int happiness;$/;"	m	struct:__anon5bb093680108	typeref:typename:int	file:
 happiness	2015/13/part2.c	/^    int happiness;$/;"	m	struct:__anon5bb097a90108	typeref:typename:int	file:
+has_ssl	2016/07/part2.c	/^int has_ssl(char* ip) {$/;"	f	typeref:typename:int
+has_tls	2016/07/part1.c	/^int has_tls(char* ip) {$/;"	f	typeref:typename:int
 hash	2016/05/part1.c	/^uint8_t* hash(char* id, int i) {$/;"	f	typeref:typename:uint8_t *
 hash	2016/05/part2.c	/^uint8_t* hash(char* id, int i) {$/;"	f	typeref:typename:uint8_t *
 hash_key_t	2024/Day 21/star2.c	/^} hash_key_t;$/;"	t	typeref:struct:__anon449955690108	file:
@@ -1427,6 +1429,8 @@ main	2016/05/part1.c	/^int main(){$/;"	f	typeref:typename:int
 main	2016/05/part2.c	/^int main(){$/;"	f	typeref:typename:int
 main	2016/06/part1.c	/^int main() {$/;"	f	typeref:typename:int
 main	2016/06/part2.c	/^int main() {$/;"	f	typeref:typename:int
+main	2016/07/part1.c	/^int main() {$/;"	f	typeref:typename:int
+main	2016/07/part2.c	/^int main() {$/;"	f	typeref:typename:int
 main	2023/n1.c	/^int main(){$/;"	f	typeref:typename:int
 main	2023/n10.c	/^int main()$/;"	f	typeref:typename:int
 main	2023/n11.c	/^int main()$/;"	f	typeref:typename:int
