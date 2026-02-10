@@ -28,6 +28,11 @@ void get_hash(const char* salt, int index, char* result) {
     MD5_Update(&md5_ctx, salt, strlen(salt));
     MD5_Update(&md5_ctx, str_index, len_index);
     hex_digest(&md5_ctx, result);
+    for(int i = 0; i < 2016; i++) {
+        MD5_Init(&md5_ctx);
+        MD5_Update(&md5_ctx, result, MD5_DIGEST_LENGTH * 2);
+        hex_digest(&md5_ctx, result);
+    }
 }
 
 void init_queue(char** queue, const char* salt) {
