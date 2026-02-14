@@ -112,7 +112,7 @@ void run_program(line_t* program, int n_program, int* registers) {
 int main() {
     int* registers = calloc(MAX_REGISTER, sizeof(int));
 
-    line_t* program = malloc(MAX_LINES * sizeof(instr_t));
+    line_t* program = malloc(MAX_LINES * sizeof(line_t));
     int n_program = 0;
 
     char* line = malloc(MAX_CHAR * sizeof(char));
